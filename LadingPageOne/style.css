@@ -91,4 +91,35 @@ body {
   border-radius: 32px;
 }
 
-/* ----------------- Body Section 1 -------------------- */
+/* ----------------- About -------------------- */
+
+.aboutContainer {
+  text-align: center;
+}
+
+.aboutContainerTitle {
+  color: var(--title);
+}
+
+.aboutParagraph {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.aboutIcons {
+  max-width: 295px;
+}
+
+.aboutIconIMG {
+  font-size: 60px;
+  color: #2091f9;
+}
+
+.aboutMain {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
