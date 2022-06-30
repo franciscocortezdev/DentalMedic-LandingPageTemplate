@@ -95,6 +95,7 @@ body {
 
 .aboutContainer {
   text-align: center;
+  padding: 100px 0;
 }
 
 .aboutContainerTitle {
@@ -105,11 +106,12 @@ body {
   line-height: 1.5;
   text-align: center;
   font-size: 15px;
-  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .aboutIcons {
   max-width: 295px;
+  margin-top: 60px;
 }
 
 .aboutIconIMG {
@@ -122,4 +124,36 @@ body {
   gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* ----------------- knowledge -------------------- */
+.knowledge {
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
+    radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  padding: 100px 0;
+}
+.knowledgeContainer {
+  max-width: 900px;
+  display: flex;
+
+  margin: 0 auto;
+  gap: 20px;
+}
+.knowledgeSubTitle {
+  color: var(--title);
+  margin-bottom: 20px;
+}
+.knowledgeParagraph {
+  margin-bottom: 40px;
+}
+.knowledgePicture {
+  max-width: 400px;
+}
+
+.knowledgeIMG {
+  width: 100%;
+  border-radius: 20px;
 }
