@@ -239,10 +239,12 @@ body {
 }
 
 .testimonyContainer {
+  max-width: 984px;
   display: grid;
   grid-template-columns: 50px 1fr 50px;
   gap: 1em;
   align-items: center;
+  margin: 0 auto;
 }
 
 .testimonyBody {
