@@ -7,6 +7,11 @@
 }
 :root {
   --title: #001a49;
+  --colorPlan: #696871;
+  --colorPrice: #1d293f;
+  --bgCTA: #fff;
+  --colorCTA: #5454d4;
+  --colorItems: #696871;
 }
 
 body {
@@ -159,3 +164,70 @@ body {
 }
 
 /* ----------------- Prices -------------------- */
+
+.priceContainer {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.priceTable {
+  max-width: 865px;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.priceElement {
+  background-color: #e5e5f7;
+  text-align: center;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+}
+
+.planName {
+  color: var(--colorPlan);
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.planPrice {
+  font-size: 2.5rem;
+  color: var(--colorPrice);
+}
+
+.planItems {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: var(--colorItems);
+}
+.planCTA {
+  display: block;
+  padding: 20px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: var(--bgCTA);
+  color: var(--colorCTA);
+  font-weight: 600;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.priceBest {
+  --colorPlan: rgb(255 255 255 / 75%);
+  --colorPrice: #fff;
+  --bgCTA: #9f3919;
+  --colorCTA: #fff;
+  --colorItems: #fff;
+
+  background-color: #ff7143;
+  width: 300px;
+  padding: 60px 20px;
+}
