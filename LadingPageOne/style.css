@@ -231,3 +231,53 @@ body {
   width: 300px;
   padding: 60px 20px;
 }
+
+/* ----------------- Testimony -------------------- */
+.testimonySection {
+  background-color: #e5e5f7;
+  padding: 100px 20px;
+}
+
+.testimonyContainer {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  gap: 1em;
+  align-items: center;
+}
+
+.testimonyBody {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  opacity: 0;
+  pointer-events: none;
+}
+.testimonyBodyShow {
+  pointer-events: unset;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.testimonyIMG {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.testimonyCourse {
+  background-color: royalblue;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+}
+#leftArrow,
+#rightArrow {
+  text-align: center;
+  font-size: 40px;
+}
