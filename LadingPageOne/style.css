@@ -349,3 +349,12 @@ body {
   height: 0;
   transition: height 0.3s;
 }
+
+.startContainer {
+  max-width: 900px;
+  margin: 100px auto 0;
+}
+
+.startParagraph {
+  margin-bottom: 30px;
+}
