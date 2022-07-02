@@ -347,4 +347,5 @@ body {
 .questionShow {
   text-align: left;
   height: 0;
+  transition: height 0.3s;
 }
