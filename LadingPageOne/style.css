@@ -360,3 +360,73 @@ body {
 }
 
 /* ----------------- Footer -------------------- */
+
+.footer {
+  padding: 100px 20px 20px;
+  background-color: #1c2940;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footerHead {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+}
+
+.linksTitle {
+  color: #fff;
+  font-weight: 300;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+.subscribeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputNewsletter {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btnNewsletter {
+  background-color: #2091f9;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: 600;
+}
+.subscribeForm {
+  display: flex;
+  gap: 10px;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#icon {
+  font-size: 20px;
+}
