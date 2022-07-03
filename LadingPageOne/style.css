@@ -171,12 +171,11 @@ body {
 }
 
 .priceTable {
-  max-width: 865px;
-  padding-top: 60px;
+  padding-top: 20px;
   display: flex;
-  flex-wrap: wrap;
+
   gap: 2em;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
@@ -228,7 +227,7 @@ body {
   --colorItems: #fff;
 
   background-color: #ff7143;
-  width: 300px;
+  width: 375px;
   padding: 60px 20px;
 }
 
@@ -341,7 +340,6 @@ body {
 
 #questionIMG {
   color: #fff;
-  display: block;
 }
 
 .questionShow {
@@ -379,6 +377,7 @@ body {
   align-items: center;
   border-bottom: 1px solid #fff;
   padding-bottom: 50px;
+  gap: 2rem;
 }
 
 .linksTitle {
@@ -389,6 +388,7 @@ body {
 .links {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .link {
@@ -399,6 +399,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.subscribeTitle {
+  font-size: 20px;
 }
 
 .inputNewsletter {
@@ -464,5 +467,50 @@ body {
     top: 30px;
     right: 40px;
     font-size: 30px;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .knowledgeContainer {
+    flex-direction: column-reverse;
+    gap: 3em;
+    text-align: center;
+  }
+  .priceTable {
+    flex-direction: column;
+  }
+  .testimonyContainer {
+    grid-template-columns: 30px 1fr 30px;
+    gap: 1em;
+  }
+  #leftArrow,
+  #rightArrow {
+    text-align: center;
+    font-size: 30px;
+  }
+  .testimonyBody {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerHead {
+    flex-direction: column;
+    text-align: center;
+  }
+  .LinksContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .links {
+    justify-content: space-evenly;
+  }
+  .subscribeContainer {
+    width: 100%;
+    text-align: start;
+  }
+  .inputNewsletter {
+    width: 100%;
   }
 }
