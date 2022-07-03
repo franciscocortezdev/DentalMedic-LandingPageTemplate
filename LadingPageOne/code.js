@@ -6,6 +6,7 @@ const nextSlide = document.getElementById('rightArrow')
 const openBtn = document.getElementById('navMenu')
 const closeBtn = document.getElementById('navClose')
 const menuContainer = document.querySelector('.navlinkContainer')
+const btnUp = document.querySelector('.btnUpContainer')
 
 let value = 0
 
@@ -59,6 +60,17 @@ links.forEach(link =>{
   })
 })
 
+btnUp.addEventListener('click', ()=>{
+  window.scrollTo({ top: 0 })
+})
 
+window.addEventListener('scroll',()=>{
+ 
+  if(scrollY > 300){
+    btnUp.classList.add('btnUpContainerActive')
+  }else{
+    btnUp.classList.remove('btnUpContainerActive')
+  }
+})
 
 
