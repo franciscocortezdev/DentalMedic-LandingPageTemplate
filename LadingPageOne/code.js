@@ -1,5 +1,6 @@
 const sliders = [...document.querySelectorAll('.testimonyBody')]
 const titleQuestions = [...document.querySelectorAll('.questionTitle')]
+const links = [...document.querySelectorAll('.navItem')]
 const beforeSlide = document.getElementById('leftArrow')
 const nextSlide = document.getElementById('rightArrow')
 const openBtn = document.getElementById('navMenu')
@@ -50,6 +51,12 @@ openBtn.addEventListener('click', ()=>{
 
 closeBtn.addEventListener('click', ()=>{
   menuContainer.classList.remove('navlinkContainerShow')
+})
+
+links.forEach(link =>{
+  link.addEventListener('click', ()=>{
+    menuContainer.classList.remove('navlinkContainerShow')
+  })
 })
 
 
