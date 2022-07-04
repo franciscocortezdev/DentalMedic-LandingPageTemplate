@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <link rel="shortcut icon" href="./Imgs/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-   <!-- ---------------------- Header --------------------- -->
+    <!-- ---------------------- Header --------------------- -->
     <header class="header">
 
         <nav class="nav">
@@ -30,7 +30,7 @@
                     <a class="navLink" href="#About">About</a>
                 </li>
                 <li class="navItem">
-                    <a class="navLink" href="#Knowledge">Services</a>
+                    <a class="navLink" href="#Services">Services</a>
                 </li>
                 <li class="navItem">
                     <a class="navLink" href="#Prices">Prices</a>
@@ -53,7 +53,8 @@
         <section class="container" id="Home">
             <h1 class="title">Improve your dental health</h1>
             <p class="paragraph">
-                We offer our patients our exclusive dental implant service. We use the most advanced techniques to ensure the highest quality in our treatments.
+                We offer our patients our exclusive dental implant service. We use the most advanced techniques to
+                ensure the highest quality in our treatments.
             </p>
             <a href="#" class="startNow">Contact us now</a>
         </section>
@@ -63,97 +64,104 @@
     </header>
 
     <main>
-<!-- ---------------------- About --------------------- -->
-        <section id="About" class="aboutContainer">
+        <!-- ---------------------- About --------------------- -->
+        <section id="About" class="knowledge">
+            <div class="knowledgeContainer">
+                <div class="knowledgeTexts">
+                    <h2 class="sectionTitle">
+                        The best dental clinic you can find
+                    </h2>
+                    <p class="knowledgeParagraph">We invite new and existing patients to our facility. Equipped with the most cutting-edge dental technologies, every aspect was configured with the patient at the forefront. 
+                    </p>
+                    <p class="knowledgeParagraph">
+                        Our patients first experience starts with a warm welcoming from our front desk staff, where patients are promptly checked in. Our treatment room is prepared with the most up-to-date dental equipment to ensure that every individual has a comfortable and painless appointment.
+                    </p>
+                    
+                </div>
+                <figure class="knowledgePicture">
+                    <img src="./Imgs/About.jpg" class="knowledgeIMG" alt="">
+                </figure>
+            </div>
+        </section>
+
+        <!-- ---------------------- Knowledge --------------------- -->
+        <section id="Services" class="aboutContainer">
             <h2 class="sectionTitle">Que aprenderas en este curso</h2>
-            <p class="aboutParagraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties, Position, Animaciones, Box Model y mas)</p>
+            <p class="aboutParagraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
+                Position, Animaciones, Box Model y mas)</p>
 
             <section class="aboutMain">
 
                 <article class="aboutIcons">
                     <i class='aboutIconIMG bx bx-layout'></i>
                     <h3 class="aboutTitle">CSS Layout</h3>
-                    <p class="aboutParagraph"> 
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit rerum fugit dignissimos! 
+                    <p class="aboutParagraph">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit rerum fugit dignissimos!
                     </p>
                 </article>
-    
+
                 <article class="aboutIcons">
                     <i class='aboutIconIMG bx bx-paint'></i>
                     <h3 class="aboutTitle">Animaciones</h3>
-                    <p class="aboutParagraph"> 
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit rerum fugit dignissimos! 
+                    <p class="aboutParagraph">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit rerum fugit dignissimos!
                     </p>
                 </article>
-    
+
                 <article class="aboutIcons">
                     <i class='aboutIconIMG bx bx-code'></i>
                     <h3 class="aboutTitle">Sass</h3>
-                    <p class="aboutParagraph"> 
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit rerum fugit dignissimos! 
+                    <p class="aboutParagraph">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit rerum fugit dignissimos!
                     </p>
-                </article> 
+                </article>
             </section>
         </section>
 
-<!-- ---------------------- Knowledge --------------------- -->
-        <section id="Knowledge" class="knowledge">
-            <div class="knowledgeContainer">
-                <div class="knowledgeTexts">
-                    <h2 class="sectionTitle">Curso completo de CSS. Domina CSS de una vez por todas</h2>
-                    <p class="knowledgeParagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos facilis accusantium eum doloremque illum, ex earum maxime ullam ipsam porro quis voluptate labore, enim eius, iste voluptatem dolorem provident quod!</p>
-                    <a href="#" class="startNow">Entra al curso</a>
-                </div>
-                <figure class="knowledgePicture">
-                    <img src="./Imgs/computer.jpg" class="knowledgeIMG" alt="">
-                </figure>
-            </div>
-        </section>
-
-<!-- ---------------------- Prices --------------------- -->
+        <!-- ---------------------- Prices --------------------- -->
 
         <section id="Prices" class="priceContainer">
             <h2 class="sectionTitle">Obten el plan perfecto para aprender</h2>
-                <div class="priceTable">
-                    <div class="priceElement">
-                        <p class="planName">Flexbox</p>
-                        <h3 class="planPrice">Free</h3>
-    
-                        <div class="planItems">
-                            <p class="planFeatures">Flexbox</p>
-                            <p class="planFeatures">Layouts</p>
-                            <p class="planFeatures">Responsive</p>
-                        </div>
-                        <a href="" class="planCTA">Empieza ahora</a>
-                    </div>
+            <div class="priceTable">
+                <div class="priceElement">
+                    <p class="planName">Flexbox</p>
+                    <h3 class="planPrice">Free</h3>
 
-                    <div class="priceElement priceBest">
-                        <p class="planName">Grid</p>
-                        <h3 class="planPrice">$30/mes</h3>
-    
-                        <div class="planItems">
-                            <p class="planFeatures">Grid</p>
-                            <p class="planFeatures">Implicit Grid</p>
-                            <p class="planFeatures">Responsive</p>
-                        </div>
-                        <a href="" class="planCTA">Empieza ahora</a>
+                    <div class="planItems">
+                        <p class="planFeatures">Flexbox</p>
+                        <p class="planFeatures">Layouts</p>
+                        <p class="planFeatures">Responsive</p>
                     </div>
-
-                    <div class="priceElement">
-                        <p class="planName">Animaciones</p>
-                        <h3 class="planPrice">$40/mes</h3>
-    
-                        <div class="planItems">
-                            <p class="planFeatures">Animation</p>
-                            <p class="planFeatures">Transition</p>
-                            <p class="planFeatures">Render Website</p>
-                        </div>
-                        <a href="" class="planCTA">Empieza ahora</a>
-                    </div>
+                    <a href="" class="planCTA">Empieza ahora</a>
                 </div>
+
+                <div class="priceElement priceBest">
+                    <p class="planName">Grid</p>
+                    <h3 class="planPrice">$30/mes</h3>
+
+                    <div class="planItems">
+                        <p class="planFeatures">Grid</p>
+                        <p class="planFeatures">Implicit Grid</p>
+                        <p class="planFeatures">Responsive</p>
+                    </div>
+                    <a href="" class="planCTA">Empieza ahora</a>
+                </div>
+
+                <div class="priceElement">
+                    <p class="planName">Animaciones</p>
+                    <h3 class="planPrice">$40/mes</h3>
+
+                    <div class="planItems">
+                        <p class="planFeatures">Animation</p>
+                        <p class="planFeatures">Transition</p>
+                        <p class="planFeatures">Render Website</p>
+                    </div>
+                    <a href="" class="planCTA">Empieza ahora</a>
+                </div>
+            </div>
         </section>
 
-<!-- ---------------------- Testimony --------------------- -->
+        <!-- ---------------------- Testimony --------------------- -->
 
         <section id="Testimony" class="testimonySection">
             <div class="testimonyContainer">
@@ -162,13 +170,15 @@
 
                 <section class="testimonyBody testimonyBodyShow" data-id="1">
                     <div class="testimonyTexts">
-                        <h2 class="sectionTitle">Mi nombre es Yakelin Cortez, 
+                        <h2 class="sectionTitle">Mi nombre es Yakelin Cortez,
                             <span class="testimonyCourse">
                                 estudiante de CSS
                             </span>
                         </h2>
                         <p class="testimonyReview">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus minima tempore ipsum, dolore similique.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas
+                            necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus
+                            minima tempore ipsum, dolore similique.
                         </p>
                     </div>
                     <figure class="testimonyPicture">
@@ -178,13 +188,15 @@
 
                 <section class="testimonyBody " data-id="2">
                     <div class="testimonyTexts">
-                        <h2 class="sectionTitle">Mi nombre es Rodrigo Lopez, 
+                        <h2 class="sectionTitle">Mi nombre es Rodrigo Lopez,
                             <span class="testimonyCourse">
                                 estudiante de CSS
                             </span>
                         </h2>
                         <p class="testimonyReview">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus minima tempore ipsum, dolore similique.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas
+                            necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus
+                            minima tempore ipsum, dolore similique.
                         </p>
                     </div>
                     <figure class="testimonyPicture">
@@ -194,13 +206,15 @@
 
                 <section class="testimonyBody " data-id="3">
                     <div class="testimonyTexts">
-                        <h2 class="sectionTitle">Mi nombre es Antonio Nieto, 
+                        <h2 class="sectionTitle">Mi nombre es Antonio Nieto,
                             <span class="testimonyCourse">
                                 estudiante de CSS
                             </span>
                         </h2>
                         <p class="testimonyReview">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus minima tempore ipsum, dolore similique.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas
+                            necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus
+                            minima tempore ipsum, dolore similique.
                         </p>
                     </div>
                     <figure class="testimonyPicture">
@@ -210,13 +224,15 @@
 
                 <section class="testimonyBody " data-id="4">
                     <div class="testimonyTexts">
-                        <h2 class="sectionTitle">Mi nombre es Rosario Ayala, 
+                        <h2 class="sectionTitle">Mi nombre es Rosario Ayala,
                             <span class="testimonyCourse">
                                 estudiante de CSS
                             </span>
                         </h2>
                         <p class="testimonyReview">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus minima tempore ipsum, dolore similique.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab illo dolor ratione voluptas
+                            necessitatibus natus porro labore, odio sed, eius explicabo non eligendi vitae temporibus
+                            minima tempore ipsum, dolore similique.
                         </p>
                     </div>
                     <figure class="testimonyPicture">
@@ -226,18 +242,19 @@
 
 
 
-                <i id="rightArrow" class='bx bxs-chevron-right' ></i>
+                <i id="rightArrow" class='bx bxs-chevron-right'></i>
             </div>
         </section>
 
-<!-- ---------------------- Question --------------------- -->
+        <!-- ---------------------- Question --------------------- -->
 
         <section id="Questions" class="Question Container">
             <h2 class="sectionTitle">
                 Preguntas frecuentes
             </h2>
             <p class="questionParagraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam laborum odit tenetur sunt minus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam laborum odit tenetur sunt
+                minus.
             </p>
 
             <section class="questionContainer">
@@ -248,11 +265,13 @@
                             Que es CSS?
                             <span class="questionArrow">
                                 <i id="questionIMG" class='bx bxs-chevron-up'></i>
-                              
+
                             </span>
                         </h3>
                         <p class="questionShow">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, voluptates minima eaque asperiores ipsa totam consequuntur perspiciatis modi fugiat doloremque optio neque quam debitis alias necessitatibus quidem exercitationem soluta?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, voluptates
+                            minima eaque asperiores ipsa totam consequuntur perspiciatis modi fugiat doloremque optio
+                            neque quam debitis alias necessitatibus quidem exercitationem soluta?
                         </p>
                     </div>
                 </article>
@@ -266,7 +285,9 @@
                             </span>
                         </h3>
                         <p class="questionShow">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, voluptates minima eaque asperiores ipsa totam consequuntur perspiciatis modi fugiat doloremque optio neque quam debitis alias necessitatibus quidem exercitationem soluta?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, voluptates
+                            minima eaque asperiores ipsa totam consequuntur perspiciatis modi fugiat doloremque optio
+                            neque quam debitis alias necessitatibus quidem exercitationem soluta?
                         </p>
                     </div>
                 </article>
@@ -280,7 +301,9 @@
                             </span>
                         </h3>
                         <p class="questionShow">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, voluptates minima eaque asperiores ipsa totam consequuntur perspiciatis modi fugiat doloremque optio neque quam debitis alias necessitatibus quidem exercitationem soluta?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, voluptates
+                            minima eaque asperiores ipsa totam consequuntur perspiciatis modi fugiat doloremque optio
+                            neque quam debitis alias necessitatibus quidem exercitationem soluta?
                         </p>
                     </div>
                 </article>
@@ -292,7 +315,9 @@
 
                 </h3>
                 <p class="startParagraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam id perferendis doloremque impedit quia unde magnam, recusandae consequatur ad placeat mollitia sapiente fugit natus, odit nisi doloribus nam, voluptatibus rem?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam id perferendis doloremque impedit
+                    quia unde magnam, recusandae consequatur ad placeat mollitia sapiente fugit natus, odit nisi
+                    doloribus nam, voluptatibus rem?
                 </p>
                 <a class="startNow">
                     Entrar ahora
@@ -300,7 +325,7 @@
             </section>
         </section>
 
-<!-- ---------------------- Footer --------------------- -->
+        <!-- ---------------------- Footer --------------------- -->
 
         <section class="footer">
             <section class="footerHead">
@@ -332,8 +357,8 @@
             <section class="socialNetwork">
                 <div class="iconsContainer">
                     <i id="icon" class='bx bxl-facebook'></i>
-                    <i id="icon" class='bx bxl-twitter' ></i>
-                    <i id="icon" class='bx bxl-youtube' ></i>
+                    <i id="icon" class='bx bxl-twitter'></i>
+                    <i id="icon" class='bx bxl-youtube'></i>
 
                 </div>
                 <h3 class="copyRights">
