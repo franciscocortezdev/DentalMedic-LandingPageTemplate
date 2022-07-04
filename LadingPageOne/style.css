@@ -174,14 +174,14 @@ body {
 }
 
 .aboutIconIMG {
-  font-size: 60px;
-  color: #2091f9;
+  max-width: 60px;
 }
 
 .aboutMain {
   display: flex;
   gap: 10px;
   justify-content: center;
+
   flex-wrap: wrap;
 }
 
