@@ -30,6 +30,7 @@ body {
   max-height: 800px;
   position: relative;
   color: #fff;
+  padding: 0 40px;
 }
 
 .header::before {
@@ -47,7 +48,6 @@ body {
 }
 
 .nav {
-  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   height: 100px;
