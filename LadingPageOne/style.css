@@ -295,12 +295,6 @@ body {
   object-position: 50% 50%;
 }
 
-.testimonyCourse {
-  background-color: royalblue;
-  color: #fff;
-  display: inline-block;
-  padding: 5px;
-}
 #leftArrow,
 #rightArrow {
   text-align: center;
@@ -567,9 +561,7 @@ body {
   .sectionTitle {
     font-size: 1.5rem;
   }
-  .testimonyCourse {
-    font-size: 1.2rem;
-  }
+
   .testimonyReview {
     font-size: 15px;
     text-align: justify;
