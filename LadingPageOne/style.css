@@ -416,9 +416,10 @@ body {
   color: #fff;
 }
 .subscribeContainer {
+  min-width: 286px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 .subscribeTitle {
   font-size: 20px;
@@ -543,6 +544,7 @@ body {
     justify-content: space-evenly;
   }
   .subscribeContainer {
+    min-width: 200px;
     width: 100%;
     text-align: start;
   }
