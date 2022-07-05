@@ -206,18 +206,19 @@ body {
   background-color: #e5e5f7;
   text-align: center;
   border-radius: 10px;
-  width: 250px;
+  width: 300px;
   padding: 20px;
 }
 
 .planName {
   color: var(--colorPlan);
   margin-bottom: 15px;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .planPrice {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--colorPrice);
 }
 
@@ -244,11 +245,12 @@ body {
 .priceBest {
   --colorPlan: rgb(255 255 255 / 75%);
   --colorPrice: #fff;
-  --bgCTA: #9f3919;
-  --colorCTA: #fff;
   --colorItems: #fff;
 
-  background-color: #ff7143;
+  text-align: center;
+  border-radius: 10px;
+
+  background-color: #2091f9;
   width: 375px;
   padding: 60px 20px;
 }
