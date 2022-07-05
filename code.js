@@ -11,25 +11,25 @@ const btnUp = document.querySelector('.btnUpContainer')
 let value = 0
 
 nextSlide.addEventListener('click', () => {
-    changePosition(1)
+  changePosition(1)
 })
 
 beforeSlide.addEventListener('click', () => {
   changePosition(-1)
 })
 
-const changePosition = (slide)=>{
+const changePosition = (slide) => {
   const currentSlide = document.querySelector('.testimonyBodyShow').dataset.id
   value = Number(currentSlide)
   value += Number(slide)
 
   value = value === 0 ? sliders.length : value > sliders.length ? 1 : value
-  sliders[Number(currentSlide)-1].classList.remove('testimonyBodyShow')
-  sliders[value-1].classList.add('testimonyBodyShow')
+  sliders[Number(currentSlide) - 1].classList.remove('testimonyBodyShow')
+  sliders[value - 1].classList.add('testimonyBodyShow')
 }
 
 titleQuestions.forEach(question => {
-  question.addEventListener('click', ()=>{
+  question.addEventListener('click', () => {
     let height = 0;
     let answer = question.nextElementSibling;
     let addPadding = question.parentElement.parentElement
@@ -37,7 +37,7 @@ titleQuestions.forEach(question => {
     addPadding.classList.toggle('questionPaddingAdd')
     question.children[0].classList.toggle('questionArrowRotate')
 
-    if(answer.clientHeight === 0){
+    if (answer.clientHeight === 0) {
       height = answer.scrollHeight
 
     }
@@ -46,29 +46,29 @@ titleQuestions.forEach(question => {
 })
 
 
-openBtn.addEventListener('click', ()=>{
+openBtn.addEventListener('click', () => {
   menuContainer.classList.add('navlinkContainerShow')
 })
 
-closeBtn.addEventListener('click', ()=>{
+closeBtn.addEventListener('click', () => {
   menuContainer.classList.remove('navlinkContainerShow')
 })
 
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
+links.forEach(link => {
+  link.addEventListener('click', () => {
     menuContainer.classList.remove('navlinkContainerShow')
   })
 })
 
-btnUp.addEventListener('click', ()=>{
+btnUp.addEventListener('click', () => {
   window.scrollTo({ top: 0 })
 })
 
-window.addEventListener('scroll',()=>{
- 
-  if(scrollY > 300){
+window.addEventListener('scroll', () => {
+
+  if (scrollY > 300) {
     btnUp.classList.add('btnUpContainerActive')
-  }else{
+  } else {
     btnUp.classList.remove('btnUpContainerActive')
   }
 })

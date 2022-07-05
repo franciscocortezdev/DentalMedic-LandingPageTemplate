@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --title: #001a49;
   --colorPlan: #696871;
@@ -13,6 +14,7 @@
   --colorCTA: #5454d4;
   --colorItems: #696871;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -60,13 +62,16 @@ body {
   display: flex;
   gap: 2rem;
 }
+
 .navItem {
   list-style: none;
 }
+
 .navLink {
   text-decoration: none;
   color: #fff;
 }
+
 .navMenuContainer {
   display: none;
 }
@@ -74,6 +79,7 @@ body {
 #navClose {
   display: none;
 }
+
 .container {
   padding: 100px 20px;
   max-width: 800px;
@@ -113,6 +119,7 @@ body {
   opacity: 0;
   transition: 0.5s opacity;
 }
+
 .btnUpContainerActive {
   opacity: 1;
 }
@@ -123,6 +130,7 @@ body {
 
   padding: 100px 20px;
 }
+
 .knowledgeContainer {
   max-width: 900px;
   display: flex;
@@ -136,6 +144,7 @@ body {
 .knowledgeParagraph {
   margin-bottom: 30px;
 }
+
 .knowledgePicture {
   max-width: 400px;
   max-height: 400px;
@@ -232,6 +241,7 @@ body {
   margin-bottom: 50px;
   color: var(--colorItems);
 }
+
 .planCTA {
   display: block;
   padding: 20px 0;
@@ -242,6 +252,7 @@ body {
   font-weight: 600;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
+
 .priceBest {
   --colorPlan: rgb(255 255 255 / 75%);
   --colorPrice: #fff;
@@ -281,6 +292,7 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+
 .testimonyBodyShow {
   pointer-events: unset;
   opacity: 1;
@@ -342,6 +354,7 @@ body {
   align-items: center;
   text-align: start;
 }
+
 .questionArrow {
   border-radius: 50%;
   background-color: var(--title);
@@ -354,6 +367,7 @@ body {
   margin-left: 10px;
   transition: transform 0.3s;
 }
+
 .questionArrowRotate {
   transform: rotate(180deg);
 }
@@ -415,12 +429,14 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
 .subscribeContainer {
   min-width: 286px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .subscribeTitle {
   font-size: 20px;
 }
@@ -441,10 +457,12 @@ body {
   padding: 10px 15px;
   font-weight: 600;
 }
+
 .subscribeForm {
   display: flex;
   gap: 10px;
 }
+
 .copyRights {
   text-align: center;
 }
@@ -454,6 +472,7 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
 #icon {
   font-size: 20px;
 }
@@ -465,6 +484,7 @@ body {
     display: block;
     font-size: 30px;
   }
+
   .container {
     padding-top: 75px;
   }
@@ -485,6 +505,7 @@ body {
 
     transition: 0.2s left;
   }
+
   .navlinkContainerShow {
     left: 0;
     pointer-events: unset;
@@ -497,34 +518,42 @@ body {
     right: 40px;
     font-size: 30px;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .knowledgeContainer {
     flex-direction: column-reverse;
     gap: 3em;
     text-align: center;
   }
+
   .priceTable {
     max-width: 500px;
   }
+
   .priceTable {
     flex-wrap: wrap;
   }
+
   .testimonyContainer {
     grid-template-columns: 30px 1fr 30px;
     gap: 1em;
   }
+
   #leftArrow,
   #rightArrow {
     text-align: center;
     font-size: 30px;
   }
+
   .testimonyBody {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
+
   .testimonyIMG {
     width: 225px;
     height: 225px;
@@ -534,20 +563,24 @@ body {
     flex-direction: column;
     text-align: center;
   }
+
   .LinksContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 2em;
   }
+
   .links {
     justify-content: space-evenly;
   }
+
   .subscribeContainer {
     min-width: 200px;
     width: 100%;
     text-align: start;
   }
+
   .inputNewsletter {
     width: 100%;
   }
@@ -557,9 +590,11 @@ body {
   .title {
     font-size: 1.8rem;
   }
+
   .paragraph {
     font-size: 0.8rem;
   }
+
   .sectionTitle {
     font-size: 1.5rem;
   }
@@ -568,22 +603,27 @@ body {
     font-size: 15px;
     text-align: justify;
   }
+
   .testimonyIMG {
     width: 150px;
     height: 150px;
   }
+
   .links {
     justify-content: space-between;
     width: 100%;
     gap: 4px;
   }
+
   .LinksContainer {
     align-items: flex-start;
     gap: 0;
   }
+
   .subscribeForm {
     flex-direction: column;
   }
+
   .btnUpContainer {
     bottom: 10px;
     right: 10px;
